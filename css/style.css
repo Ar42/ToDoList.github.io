@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+.head_and_search {
+  display: grid;
+  grid-template-columns: 80% 10%;
+}
+
+.title_text {
+  color: rgb(0, 0, 0);
+  font-size: 3vw;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  font-weight: 800;
+  line-height: 72px;
+}
+#searchbar,
+#input_id {
+  font-size: 1.5vw;
+}
+
+.totalItemList li {
+  font-size: 1.5vw;
+}
+.fa-edit {
+  color: rgb(251, 201, 63);
+  padding: 0 3vw;
+  font-weight: 200;
+}
+.fa-trash {
+  color: #f52630;
+}
+
+.btn-success {
+  border: none;
+  outline: none;
+  font-size: 1.5vw;
+  color: #fff;
+}
+button {
+  border: none;
+  outline: none;
+  font-size: 1.5vw;
+  background-color: #fff;
+}
+
+#input_id {
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid #66bb6a;
+}
+input#input_id {
+  margin-right: 1.5vw;
+}
+#addTask {
+  font-size: 1.5vw;
+}
+
+#saveTask {
+  display: none;
+}
+
+#deleteAllTask {
+  margin-left: 1.5vw;
+  font-size: 1.5vw;
+}
+td,
+th {
+  font-size: 1.5vw;
+}
+
+#zeroSpaceAlert {
+  margin-top: 6vh;
+  margin-bottom: 3vh;
+  font-weight: 500;
+}
+
+#cancelUpdate {
+  margin-left: 2vw;
+  display: none;
+}
+
+#searchbar {
+  border: 2px solid rgb(19, 110, 24);
+  outline: none;
+}
+
+a.author_name {
+  text-decoration: none;
+}
+.footer_text {
+  color: rgb(0, 0, 0);
+  font-size: 1.5vw;
+  margin-top: 5vh;
+  font-weight: 500;
+}
+.content {
+  min-height: 60%;
+}
